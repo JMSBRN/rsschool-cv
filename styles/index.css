@@ -131,6 +131,14 @@ footer {
 
 }
 
+.footer-logo-github {
+
+    display: flex;
+    align-items: center;
+}
+
+
+
 footer a{
     text-decoration: none;
     color: rgb(31, 28, 28);
@@ -143,22 +151,26 @@ footer a:hover {
    
     background-color: black;
     color: rgb(255, 255, 255);
-    padding: 0 5px;
-}
+}   
 
 .footer-slogan {
     padding: 5px 0;
     color: var(--red-color);
-    font-family:-apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10px;
 }
 
 
 @media(max-width:500px) {
 
-   
+
+
     header {
        display: grid;
+    }
+    header img {
+          
+        margin-left: 10px;
     }
   
 
@@ -171,6 +183,12 @@ footer a:hover {
     .section-education {
 
         margin-left: 5px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 3fr 2fr 3fr;
+        padding: 6px;
     }
 
 }
