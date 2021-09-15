@@ -187,7 +187,7 @@ footer a:hover {
 
     footer {
         display: grid;
-        grid-template-columns: 2fr 3fr 2fr 3fr;
+        grid-template-columns: 2fr 4fr 2fr 3fr;
         padding: 6px;
     }
 
