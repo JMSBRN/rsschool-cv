@@ -1,1 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,400;0,700;1,500&display=swap');
 
+/* ROOT */
+
+* {
+
+ margin:0;
+ padding:0;
+ font-family: 'Georama', sans-serif;
+ box-sizing: border-box;
+ color: rgb(55, 55, 128);
+
+}
+
+
+
+.main-container {
+    
+    /* padding: 10px; */
+    margin:  auto;
+    max-width: 600px;
+    
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    
+}
+
+.foto-cv {
+
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+.contacts-main {
+
+    padding: 15px;
+    line-height: 1.9rem;
+}
+
+.contacts-main h1 {
+    margin-bottom: 10px;
+}
+
+.contacts-main h5 {
+
+    margin-left: 15px;
+    
+}
+
+.contacts-main a {
+
+     text-decoration: none;
+     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.contacts-main a:hover {
+    color: red;
+    
+}
+
+.contacts-main h3 {
+    margin-top: 20px;
+}
+
+/* MAIN */
+
+main {
+
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-auto-columns: auto;
+    padding: 10px;
+
+}
+
+
+
+main section {
+
+    padding: 10px;
+    margin: 5px;
+}
+
+.section-education {
+
+    margin-left: 30px;
+}
+main h2 {
+    margin-bottom: 10px;
+}
+
+main div {
+    padding: 5px;
+}
+
+/* ASIDE */
+
+aside {
+
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+aside p {
+
+   margin: 10px;
+}
+aside h3 {
+
+    color: red;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(253, 246, 26)
+
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+    
+    
+}
+
+footer a:hover {
+   
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+
+.footer-slogan {
+    padding: 5px 0;
+    color: red;
+    font-family: 'Roboto', bold, sans-serif;
+}
