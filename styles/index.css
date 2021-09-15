@@ -16,9 +16,9 @@
 
 .main-container {
     
-    /* padding: 10px; */
+    
     margin:  auto;
-    max-width: 600px;
+    max-width: 650px;
     
 }
 
@@ -144,4 +144,26 @@ footer a:hover {
     padding: 5px 0;
     color: red;
     font-family: 'Roboto', bold, sans-serif;
+}
+
+
+@media(max-width:500px) {
+
+   
+    header {
+       display: grid;
+    }
+  
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .section-education {
+
+        margin-left: 5px;
+    }
+
 }
