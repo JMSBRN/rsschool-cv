@@ -102,6 +102,50 @@ main div {
   
 }
 
+.skills-map {
+  margin-top: 100px;
+}
+.react-li {
+  width: 220px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  background-color: rgb(40, 134, 177);
+  color: aliceblue;
+}
+.js-li {
+  width: 170px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  background-color: rgb(158, 160, 33);
+  color: aliceblue;
+}
+.typescript-li {
+  width: 140px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  background-color: rgb(62, 124, 165);
+  color: aliceblue;
+}
+.css-li {
+  width: 220px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  background-color: rgb(87, 99, 202);
+  color: aliceblue;
+}
+.html-li {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  background-color: rgb(158, 78, 84);
+  color: aliceblue;
+}
+
 /* FOOTER */
 
 footer {
