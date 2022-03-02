@@ -28,10 +28,21 @@ header {
   padding: 5px;
   border-radius: 15px;
 }
+.contacts {
+  display: grid;
+  gap: 30px;
+  width: 300px;
+  height: 600px;
+  list-style: none;
+  padding: 10px;
+}
+
 
 .contacts-main {
   padding: 15px;
   line-height: 1.9rem;
+  background-color: rgb(208, 255, 255);
+  border-radius: 10px;
 }
 
 .contacts-main h1 {
@@ -83,16 +94,12 @@ main div {
 
 /* ASIDE */
 
-aside {
-  margin-bottom: 20px;
-  padding: 5px;
-}
-
-aside p {
-  margin: 10px;
-}
-aside h3 {
-  color: var(--red-color);
+.experience {
+  display: grid;
+  justify-content: flex-end;
+  font-size: 13px;
+  list-style: none;
+  
 }
 
 /* FOOTER */
@@ -102,7 +109,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   height: 90px;
-  background-color: rgb(253, 246, 26);
+  background-color: rgb(255, 255, 255);
 }
 
 .footer-logo-github {
