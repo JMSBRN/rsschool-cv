@@ -33,6 +33,7 @@ header {
   width: 300px;
   height: 600px;
   padding: 10px;
+  list-style: none;
 }
 .contacts a {
 text-decoration: none;
@@ -54,6 +55,10 @@ text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue",
     sans-serif;
 }
+.about-me {
+  line-height: 30px;
+  font-style: italic;
+}
 /* MAIN */
 main {
   display: grid;
@@ -70,6 +75,9 @@ main {
   justify-content: flex-end;
   font-size: 14px;
   list-style: none;
+}
+.skills-map {
+  margin-top: 40px;
 }
 .react-li {
   width: 220px;
